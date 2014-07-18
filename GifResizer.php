@@ -42,7 +42,7 @@ final class GifResizer {
 		if (!$this->source = new Imagick($sourceFileName))
 			throw new GifResizerException(GIF_RESIZER_ERR_INVALID_FILE);
 		
-		//Successed
+		//Succeed
 		return true;
 	}
 	/**
